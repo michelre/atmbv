@@ -1,0 +1,382 @@
+
+body{
+    background-color: #fff;
+}
+
+/* TEXTE */
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: 1.4;
+    color:white;
+}
+.h1-bleu{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #2961AA;
+    text-align: center;
+    padding:10 5;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.4;
+    color:#50B9AA;
+    padding: 10 0;
+}
+.h2-petit{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.4;
+    color:#50B9AA;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color:dimgrey;
+}
+.p-justify{
+    text-align: justify;
+}
+.blanc{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    color:white;
+}
+
+.guillemets{
+    font-family: 'Raleway', sans-serif;
+    color:dimgrey;
+    font-weight: 600;
+}
+.guillemets-blanc{
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    font-weight: 500;
+}
+
+    @media screen and (max-width: 425px){
+        .h1-bleu{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #2961AA;
+    text-align: center;
+}
+    }
+
+/* IMAGES */
+
+.center{
+    text-align: center;
+}
+.no-border{
+    border: 1px solid white;
+}
+
+/* HEADER */
+
+.container-fluid{
+    background-color: #4EB9AA;
+}
+.logo{
+    max-width: 100px;
+}
+    @media screen and (min-width: 610px){
+        .logo {
+            max-width: 150px;
+        }
+    }
+.row-logo{
+    text-align: left;
+}
+.row-atmb{
+    text-align: right;
+}
+.p-logo{
+    color:white;
+    text-align: left;
+    font-size: 17px;
+}
+.titre-atmb{
+    font-family: 'Montserrat', sans-serif;
+    font-size:60;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+}
+    @media screen and (min-width: 992px){
+        .row-atmb {
+            text-align: right;
+        }
+        .row-logo {
+            text-align: left;
+            padding-top: 20;
+            margin-top: 10;
+        }
+        .p-logo{
+        text-align: left;
+        }
+        .titre-atmb{
+        font-size:70;
+        }
+    }
+
+        @media screen and (max-width: 992px){
+        .row-atmb {
+            text-align: center;
+        }
+        .row-logo {
+            text-align: center;
+        }
+            .p-logo{
+            text-align: center;
+        }
+            .titre-atmb{
+            font-size:70;
+        }
+    }
+        @media screen and (max-width: 425px){
+        .row-atmb {
+            text-align: center;
+        }
+        .row-logo {
+            text-align: center;
+        }
+            .p-logo{
+            text-align: center;
+            font-size: 12px;
+        }
+            .titre-atmb{
+            font-size:40;
+        }
+    }
+
+
+
+
+
+
+/* MENU */
+
+.row-block{
+    display:block;
+}
+.navbar-fixed {
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+}
+.navbar{
+    background-color: #2861AA;
+    /*padding: 0;*/
+}
+.navbar-light .navbar-nav .nav-link{
+    color:white;
+}
+li{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    /*padding-left: 20;
+    padding-right: 20;*/
+    font-size: 17;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+li:hover{
+    background-color: #fff;
+    color:#2861AA;
+    transition: .8s;
+}
+    @media screen and (min-width: 992px){
+        li{
+            font-size: 15px
+        }
+    }
+    @media screen and (min-width: 1700px){
+        li{
+            font-size: 20px;
+        }
+    }
+    @media screen and (min-width: 1024px){
+        li{
+            font-size: 10px;
+        }
+        
+    }
+    @media screen and (min-width: 1200px){
+        li{
+            font-size: 13px;
+        }
+        
+    }
+    @media screen and (min-width: 1440px){
+        li{
+            font-size: 15px;
+        }
+        
+    }
+
+.ecofont-chiffres{
+    margin: auto;       
+}
+
+.bg-blanc{
+    background-color: white;
+}
+
+/* VIDEO */
+.width-video{
+    max-width:90%;
+    margin: auto;
+}
+
+/* ASIDE */
+
+.aside>p{
+    color:white;
+}
+.aside>.p-temoignage{
+    color:white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}
+.aside>h2{
+    color:white;
+}
+.aside{
+    background-color: #50B9AA;
+    padding-bottom: 10px;
+}
+
+.flex {
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.floatright{
+  float:right ;
+  display: inline-block;
+    }
+
+.floatleft{
+  float:left ;
+    }
+
+.columns2 {
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+    padding: 15;
+        
+}
+
+@media screen and (max-width: 767px){
+    .columns2 {
+        -webkit-columns: 1;
+        -moz-columns: 1;
+        columns: 1;
+        padding: 15;
+}
+}
+
+/* CONTAINER */
+
+.container{
+    max-width: 100%;
+}
+
+.container-image{
+    max-width: 100%;
+}
+@media screen and (min-width: 768px){
+    .container{
+        max-width:80%;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 1024px){
+    .container{
+        max-width:50%;
+        margin: auto;
+    }
+}
+.container-fluid{
+    max-width: 100%
+}
+
+/* IMAGES */
+
+.pleinepage{
+    max-width: 100%;
+}
+
+.image-width{
+    width: 100%;
+}
+.image-width-ecopont{
+    width: 100%;
+}
+.text-justify{
+    text-align:left;
+}
+.alignleft{
+    float: left;
+}
+.alignright{
+    float: right;
+}
+.image-content {
+        width: 100%;
+        margin: 0;
+    }
+.image-vignette{
+    max-width:100%;
+    padding-bottom: 10;
+    }
+
+@media screen and (min-width: 768px){
+    .image-content {
+        width: auto;
+        float: left;
+    }
+}
+
+.images-animaux:hover{
+    transition: .9s;
+    color: white;
+}
+
+/* FOOTER */
+
+
+.header-content {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-footer{
+    color:white;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* BOOTSTRAP */
+
+.bootstrap{
+    background-color: aqua;
+}
